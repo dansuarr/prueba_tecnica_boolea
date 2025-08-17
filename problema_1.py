@@ -1,9 +1,3 @@
-numero = int(input('Introduce un número entero positivo: '))
-
-if numero <= 0:
-    raise ValueError('El número debe ser entero positivo.')
-
-
 def es_primo(n: int) -> bool:
     if n == 2:
         return True
@@ -25,6 +19,10 @@ def es_primo_circular(n: int) -> bool:
             return False
     return True
 
+
+numero = int(input('Introduce un número entero positivo: '))
+if numero <= 0:
+    raise ValueError('El número debe ser entero positivo.')
 
 resultado = es_primo_circular(numero)
 

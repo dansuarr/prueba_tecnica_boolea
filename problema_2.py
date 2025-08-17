@@ -1,6 +1,3 @@
-numero = int(input('Introduce un número entero positivo: '))
-
-
 def tiene_digitos_unicos(n: int) -> bool:
     if not isinstance(n, int) or n <= 0:
         raise ValueError('El número debe ser entero positivo.')
@@ -10,6 +7,7 @@ def tiene_digitos_unicos(n: int) -> bool:
     return len(n_str) == len(n_distintos)
 
 
+numero = int(input('Introduce un número entero positivo: '))
 resultado = tiene_digitos_unicos(numero)
 
 if resultado:
