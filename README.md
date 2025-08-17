@@ -1,4 +1,4 @@
-# Prueba técnica Boleea📝 - Daniel Suárez
+# Prueba técnica Boolea📝 - Daniel Suárez
 
 Este repositorio contiene el código Python para resolver los problemas propuestos, cada uno en su propio script.
 Cada script incluye un pequeño ejemplo de uso para que se pueda ejecutar directamente y comprobar su resultado. 
